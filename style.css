@@ -105,7 +105,6 @@ span{
 }
 
 .services-title{
-
     font-weight: 600;
     font-size: 48px;
     text-align:center ;
@@ -148,8 +147,8 @@ gap: 15px;
     font-size:24px ;
     color: #3A2E2E;
     margin-bottom: 25px;
-    font-size: 24px;
     line-height: 153%;
+    font-weight: 400;
     
 }
 
@@ -178,7 +177,7 @@ gap: 15px;
 .work-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -195,11 +194,14 @@ gap: 15px;
 
     font-size: 20px;
     font-weight: 500;
-    max-width: 380px;
+    padding-right:130px ;
 }
+
+
 
 .our{
     padding-top: 32px;
+    
 }
 
 .our-title{
@@ -208,19 +210,14 @@ gap: 15px;
     font-size: 48px;
     display: flex;
     justify-content: center;
-    padding-bottom:58px ;
+    align-items: center;
+    padding-bottom:18px ;
+     border-bottom: 4px solid #6278B4 ;
+     margin: 18px  auto 47px ;
+     width: 351px;
 
 }
-.our-title::after{
-    content: "";
-    width: 351px;
-    background-color: #6278B4;
-    height: 4px;
-    margin: 18px  auto 47px ;
-    display: block;
-   
 
-}
 
 .our-span{
     color:#6278B4;
@@ -247,18 +244,13 @@ gap: 15px;
     display: flex;
     align-items: center;
     margin-bottom: 64px;
-    
-}
-
-.our-name::after{
-    content: "";
-    width: 351px;
-    background-color: #6278B4;
-    height: 4px;
+    width: 224px;
+    padding-top:32px ;
     margin: 18px  auto 47px ;
-  
-   
-
+     border-top: 4px solid #3A2E2E ;
+    color: #3A2E2E;
+    padding-bottom: 64px;
+    
 }
 
 
