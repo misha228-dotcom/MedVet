@@ -171,7 +171,9 @@ gap: 15px;
 
 .work{
     background-color:#DDF9FF ;
-    padding-bottom:52px ;
+    padding-top: 32px;
+    padding-bottom:32px ;
+    
 }
 
 .work-container{
@@ -201,6 +203,7 @@ gap: 15px;
 
 .our{
     padding-top: 32px;
+    padding-bottom: 64px;
     
 }
 
@@ -240,16 +243,14 @@ gap: 15px;
 .our-name{
     font-size: 32px;
     font-weight: 600;
-    margin-top: 64px;
     display: flex;
     align-items: center;
-    margin-bottom: 64px;
     width: 224px;
     padding-top:32px ;
     margin: 18px  auto 47px ;
      border-top: 4px solid #3A2E2E ;
     color: #3A2E2E;
-    padding-bottom: 64px;
+    
     
 }
 
