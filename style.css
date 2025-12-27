@@ -109,7 +109,7 @@ span{
     font-size: 48px;
     text-align:center ;
     color: #3A2E2E;
-    margin-bottom: 18px;
+    
 }
 .services-title::after{
     content: "";
@@ -213,13 +213,19 @@ gap: 15px;
     font-size: 48px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-bottom:18px ;
-     border-bottom: 4px solid #6278B4 ;
-     margin: 18px  auto 47px ;
-     width: 351px;
+    align-items: center;    
+}
+
+.our-title::after{
+    content: "";
+    width: 351px;
+    background-color: #6278B4;
+    height: 4px;
+    margin: 18px  auto 47px ;
+    display: flex;
 
 }
+
 
 
 .our-span{
@@ -247,11 +253,10 @@ gap: 15px;
     align-items: center;
     width: 224px;
     padding-top:32px ;
-    margin: 18px  auto 47px ;
+    margin: 18px  auto  ;
      border-top: 4px solid #3A2E2E ;
     color: #3A2E2E;
-    
-    
+
 }
 
 
