@@ -49,7 +49,7 @@ span{
 
 .header-link{
     font-weight: 700;
-    size: 24px;
+    font-size: 24px;
     color: #3A2E2E;
 }
 
@@ -178,8 +178,12 @@ gap: 15px;
 
 .work-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+   align-items: center;
+   gap: 130px;
+
+    
+
+   
 
 }
 
@@ -189,14 +193,18 @@ gap: 15px;
     line-height: 153%;
     color: #6278B4;
     padding-bottom: 28px;
+    max-width: 358px;
+   
+    
+    
+
 
 }
 
 .work-text{
-
     font-size: 20px;
     font-weight: 500;
-    padding-right:130px ;
+    max-width: 294px;
 }
 
 
@@ -214,7 +222,7 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto  ;
+    margin: auto  ;
      border-bottom: 4px solid #6278B4;
      width: 351px;
      padding-bottom: 18px;    
