@@ -178,13 +178,12 @@ gap: 15px;
 
 .work-container{
     display: flex;
-   align-items: center;
-   gap: 130px;
+    gap: 130px;
+}
 
-    
-
-   
-
+.work-wrap{
+    padding-top: 100px;
+    max-width: 358px;
 }
 
 .work-title{
@@ -193,11 +192,8 @@ gap: 15px;
     line-height: 153%;
     color: #6278B4;
     padding-bottom: 28px;
-    max-width: 358px;
-   
     
     
-
 
 }
 
@@ -222,10 +218,10 @@ gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto  ;
-     border-bottom: 4px solid #6278B4;
-     width: 351px;
-     padding-bottom: 18px;    
+    margin: 0px auto 40px ;
+    border-bottom: 4px solid #6278B4;
+    width: 351px;
+    padding-bottom: 18px;    
 }
 
 
@@ -252,11 +248,10 @@ gap: 15px;
 .our-name{
     font-size: 32px;
     font-weight: 600;
-    display: flex;
-    align-items: center;
+    text-align: center;
     width: 224px;
     padding-top:32px ;
-    margin: 18px  auto  ;
+    margin: 64px auto  0px ;
      border-top: 4px solid #3A2E2E ;
     color: #3A2E2E;
 
@@ -292,6 +287,7 @@ gap: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-link{
